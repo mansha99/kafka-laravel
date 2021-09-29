@@ -1,0 +1,6 @@
+[2021-09-28 22:32:17,735] INFO Creating topic motd with configuration {} and initial partition assignment HashMap(0 -> ArrayBuffer(0)) (kafka.zk.AdminZkClient)
+[2021-09-28 22:32:18,021] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(motd-0) (kafka.server.ReplicaFetcherManager)
+[2021-09-28 22:32:18,138] INFO [LogLoader partition=motd-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log$)
+[2021-09-28 22:32:18,158] INFO Created log for partition motd-0 in /tmp/kafka-logs/motd-0 with properties {} (kafka.log.LogManager)
+[2021-09-28 22:32:18,162] INFO [Partition motd-0 broker=0] No checkpointed highwatermark is found for partition motd-0 (kafka.cluster.Partition)
+[2021-09-28 22:32:18,163] INFO [Partition motd-0 broker=0] Log loaded for partition motd-0 with initial high watermark 0 (kafka.cluster.Partition)

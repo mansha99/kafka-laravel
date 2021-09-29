@@ -1,0 +1,45 @@
+[2021-09-29T11:22:28.096-0530][gc,heap] Heap region size: 1M
+[2021-09-29T11:22:28.109-0530][gc     ] Using G1
+[2021-09-29T11:22:28.109-0530][gc,heap,coops] Heap address: 0x00000007c0000000, size: 1024 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+[2021-09-29T11:22:29.998-0530][gc,start     ] GC(0) Pause Young (Concurrent Start) (Metadata GC Threshold)
+[2021-09-29T11:22:29.998-0530][gc,task      ] GC(0) Using 4 workers of 4 for evacuation
+[2021-09-29T11:22:30.012-0530][gc,phases    ] GC(0)   Pre Evacuate Collection Set: 0.0ms
+[2021-09-29T11:22:30.012-0530][gc,phases    ] GC(0)   Evacuate Collection Set: 12.3ms
+[2021-09-29T11:22:30.012-0530][gc,phases    ] GC(0)   Post Evacuate Collection Set: 0.5ms
+[2021-09-29T11:22:30.012-0530][gc,phases    ] GC(0)   Other: 0.7ms
+[2021-09-29T11:22:30.012-0530][gc,heap      ] GC(0) Eden regions: 43->0(44)
+[2021-09-29T11:22:30.012-0530][gc,heap      ] GC(0) Survivor regions: 0->7(7)
+[2021-09-29T11:22:30.012-0530][gc,heap      ] GC(0) Old regions: 0->0
+[2021-09-29T11:22:30.012-0530][gc,heap      ] GC(0) Humongous regions: 0->0
+[2021-09-29T11:22:30.012-0530][gc,metaspace ] GC(0) Metaspace: 20681K->20681K(1069056K)
+[2021-09-29T11:22:30.012-0530][gc           ] GC(0) Pause Young (Concurrent Start) (Metadata GC Threshold) 43M->6M(1024M) 13.709ms
+[2021-09-29T11:22:30.012-0530][gc,cpu       ] GC(0) User=0.02s Sys=0.01s Real=0.02s
+[2021-09-29T11:22:30.012-0530][gc           ] GC(1) Concurrent Cycle
+[2021-09-29T11:22:30.012-0530][gc,marking   ] GC(1) Concurrent Clear Claimed Marks
+[2021-09-29T11:22:30.012-0530][gc,marking   ] GC(1) Concurrent Clear Claimed Marks 0.049ms
+[2021-09-29T11:22:30.012-0530][gc,marking   ] GC(1) Concurrent Scan Root Regions
+[2021-09-29T11:22:30.016-0530][gc,marking   ] GC(1) Concurrent Scan Root Regions 4.513ms
+[2021-09-29T11:22:30.016-0530][gc,marking   ] GC(1) Concurrent Mark (1.933s)
+[2021-09-29T11:22:30.016-0530][gc,marking   ] GC(1) Concurrent Mark From Roots
+[2021-09-29T11:22:30.016-0530][gc,task      ] GC(1) Using 1 workers of 1 for marking
+[2021-09-29T11:22:30.017-0530][gc,marking   ] GC(1) Concurrent Mark From Roots 0.147ms
+[2021-09-29T11:22:30.017-0530][gc,marking   ] GC(1) Concurrent Preclean
+[2021-09-29T11:22:30.017-0530][gc,marking   ] GC(1) Concurrent Preclean 0.026ms
+[2021-09-29T11:22:30.017-0530][gc,marking   ] GC(1) Concurrent Mark (1.933s, 1.933s) 0.225ms
+[2021-09-29T11:22:30.017-0530][gc,start     ] GC(1) Pause Remark
+[2021-09-29T11:22:30.019-0530][gc,stringtable] GC(1) Cleaned string and symbol table, strings: 7468 processed, 0 removed, symbols: 63498 processed, 29 removed
+[2021-09-29T11:22:30.019-0530][gc            ] GC(1) Pause Remark 7M->7M(1024M) 2.435ms
+[2021-09-29T11:22:30.019-0530][gc,cpu        ] GC(1) User=0.00s Sys=0.00s Real=0.00s
+[2021-09-29T11:22:30.019-0530][gc,marking    ] GC(1) Concurrent Rebuild Remembered Sets
+[2021-09-29T11:22:30.019-0530][gc,marking    ] GC(1) Concurrent Rebuild Remembered Sets 0.138ms
+[2021-09-29T11:22:30.020-0530][gc,start      ] GC(1) Pause Cleanup
+[2021-09-29T11:22:30.020-0530][gc            ] GC(1) Pause Cleanup 7M->7M(1024M) 0.134ms
+[2021-09-29T11:22:30.020-0530][gc,cpu        ] GC(1) User=0.00s Sys=0.00s Real=0.00s
+[2021-09-29T11:22:30.020-0530][gc,marking    ] GC(1) Concurrent Cleanup for Next Mark
+[2021-09-29T11:22:30.031-0530][gc,marking    ] GC(1) Concurrent Cleanup for Next Mark 10.771ms
+[2021-09-29T11:22:30.031-0530][gc            ] GC(1) Concurrent Cycle 18.885ms
+[2021-09-29T11:22:34.675-0530][gc,heap,exit  ] Heap
+[2021-09-29T11:22:34.675-0530][gc,heap,exit  ]  garbage-first heap   total 1048576K, used 44605K [0x00000007c0000000, 0x0000000800000000)
+[2021-09-29T11:22:34.675-0530][gc,heap,exit  ]   region size 1024K, 45 young (46080K), 7 survivors (7168K)
+[2021-09-29T11:22:34.675-0530][gc,heap,exit  ]  Metaspace       used 28890K, capacity 29574K, committed 29744K, reserved 1075200K
+[2021-09-29T11:22:34.675-0530][gc,heap,exit  ]   class space    used 3362K, capacity 3653K, committed 3712K, reserved 1048576K
